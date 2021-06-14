@@ -128,7 +128,7 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 25px;
+    padding: 5px 10px;
     align-items: center;
     box-sizing: border-box;
     transition: transform 0.3s ease-in-out;
@@ -136,7 +136,7 @@
 
 .reply .reply__column:first-child{
     width: 7%;
-    border-right: 20px;
+    padding-left:5px;
     
 }
 .reply .reply__column:last-child{
@@ -214,6 +214,6 @@
 }
 
 .reply input:focus{
-    width: 100vh;
-    transform:translateX(-10%) translateY(0px)
+    width: 90vh;
+    transform:translateX(-10%) translateY(0px);
 }

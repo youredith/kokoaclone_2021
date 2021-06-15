@@ -204,6 +204,6 @@
 }
 
 .reply input:focus{
-    width: 90vh;
+    width: 88vh;
     transform:translateX(-10%) translateY(0px);
 }

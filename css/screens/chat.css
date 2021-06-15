@@ -150,7 +150,7 @@
 .reply__column:last-child > i,
 .reply__column:last-child button{
     position: absolute;
-    right: -1px;
+    right: 1px;
     top: 2px;
 }
 

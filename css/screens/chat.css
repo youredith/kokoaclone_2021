@@ -42,9 +42,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-       
-
+    align-items: center;     
 }
 
 .chat__timestamp{
@@ -59,10 +57,8 @@
 .message-row{
     width: 100%;
     display: flex;
-    margin-bottom: 25px;
-    
-    animation: fadeIn 1s linear forwards; 
-    
+    margin-bottom: 25px;    
+    animation: fadeIn 1s linear forwards;     
 }
 
 .message-row img{
@@ -77,7 +73,6 @@
     font-size: 15px;
     display: block;
     margin-bottom: 5px;
-
 }
 
 .message__bubble{
@@ -85,8 +80,7 @@
     padding: 10px 13px;
     border-radius: 12px;
     margin-right: 5px;
-    border-top-left-radius: 0px;
-    
+    border-top-left-radius: 0px;    
 }
 
 .message__info{
@@ -103,8 +97,7 @@
 
 .message-row--own{
     justify-content: flex-end;  
-    opacity: 0;   
-    
+    opacity: 0;       
     animation: fadeIn--own 1s linear forwards; 
     animation-delay: 2s;
 }
@@ -136,7 +129,7 @@
 
 .reply .reply__column:first-child{
     width: 7%;
-    padding-left:5px;
+    padding-left:13px;
     
 }
 .reply .reply__column:last-child{
@@ -157,10 +150,8 @@
 .reply__column:last-child > i,
 .reply__column:last-child button{
     position: absolute;
-    right: -3px;
+    right: -1px;
     top: 2px;
-
-
 }
 
 .reply__column:last-child > i{
@@ -174,7 +165,6 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-
 }
 
 .reply__column button:focus,

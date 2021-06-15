@@ -28,21 +28,38 @@
 }
 
 .open-post{
+    position:relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
+    
+    flex-direction: column;  
+    height: 130px;  
+    padding: 5px 0px;
 }
 
-.open-post__column:first-child{
-    width: 60%;
-     
+
+.open-post__column{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    
+    
+
 }
 
-.open-post__column:last-child{
-    width: 40%;
-        
- 
+.open-post__column:first-child{   
+   
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 55%
+          
+}
+
+.open-post__column:last-child{   
+    
+   justify-content: flex-end;
+   width: 100%;
+         
 }
 
 
@@ -52,14 +69,9 @@
 }
 
 .open-post__hashtags{
-    display: flex;
-    width: 60%;
-    flex-wrap:nowrap;
-    
+    display: flex;      
     text-transform: uppercase;
-    color: var(--grey);
-      
-    
+    color: var(--grey);         
 }
 
 .open-post__members{
@@ -95,9 +107,8 @@
 
 
 .open-post__photo{
-    position:relative;
-    margin-left: 38px;
     
+        
 }
 
 .open-post__photo img{
@@ -128,8 +139,6 @@
 .open-post__heart-count span{
     margin-left: 4px;
 }
-
-
 
 @keyframes heartBeat{
     0%{

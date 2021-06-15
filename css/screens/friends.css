@@ -13,16 +13,21 @@ body{
     
     font-size: 15px;
     position: absolute;
-    top: 100px;
-    
-    
+    top: 100px;  
    
     
 }
 
-#friends-display-link i{
+.friends-display-link i{
     color: rgba(0, 0, 0, 0.2);
-}
+    margin: auto 10px;
+    }
+
+.friends-display-link i:nth-child(2){
+    color: rgba(0, 0, 0, 0.2);
+    margin:2.5px 10px auto 10px;
+    }
+
 .friends-screen{
     padding: 0px var(--horizontal-space);
 }

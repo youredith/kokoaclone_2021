@@ -199,11 +199,11 @@
 
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
-  transform: translateX(5px);
+  transform: translateX(1px);
   
 }
 
 .reply input:focus{
-    width: 95vw;
+    width: 98vw;
     transform:translateX(-10%) translateY(0px);
 }

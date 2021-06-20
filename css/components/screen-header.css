@@ -1,6 +1,4 @@
-.screen-header{
-    
-    
+.screen-header{       
     display: flex;    
     justify-content: space-between;
     align-items: center;
@@ -11,8 +9,7 @@
     z-index: 1;
     width: 100%;
     Box-sizing:border-box; 
-    background-color: white;
-    
+    background-color: rgba(0, 0, 0, 0.4);    
 
 }
 
@@ -39,8 +36,7 @@
     }
     to{
         transform: rotateZ(360deg);
-    }
-    
+    }    
 }
 
 .screen-header__icons .fa-cog:hover{

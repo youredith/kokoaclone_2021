@@ -11,8 +11,7 @@
     padding: var(--horizontal-space);
     margin-bottom: 15px;
     
-    top: 10px;
-    
+    top: 10px;    
 }
 
 .alt-header__column:first-child{
@@ -25,14 +24,10 @@
     width: 20%;
 }
 
-.alt-header__title{
-    
+.alt-header__title{    
     font-size: 23px;
     font-weight: 600;    
 }
-
-
-
 
 .alt-header__column:first-child{
     margin-right: auto;
@@ -50,5 +45,4 @@
 
 .alt-header__column span:last-child{
     margin-left: 20px;
-
 }

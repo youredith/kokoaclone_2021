@@ -9,13 +9,10 @@ body{
     align-items: center;
     width: 100%;
     background-color: #fafafa;
-    padding: 15px 0px;
-    
+    padding: 15px 0px;    
     font-size: 15px;
     position: absolute;
-    top: 100px;  
-   
-    
+    top: 100px;        
 }
 
 .friends-display-link i{
@@ -45,7 +42,6 @@ body{
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
     position: relative;
-
 }
 
 

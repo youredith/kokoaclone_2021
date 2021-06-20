@@ -30,8 +30,7 @@
 .open-post{
     position:relative;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     flex-direction: column;  
     height: 130px;  
     padding: 5px 0px;
@@ -41,25 +40,18 @@
 .open-post__column{
     display: flex;
     position:absolute;
-    justify-content: center;
-    
-    
-
+    justify-content: center;     
 }
 
-.open-post__column:first-child{   
-   
+.open-post__column:first-child{      
     justify-content: flex-start;
     flex-direction: column;
-    width: 55%
-          
+    width: 55%;          
 }
 
-.open-post__column:last-child{   
-    
+.open-post__column:last-child{      
    justify-content: flex-end;
-   width: 100%;
-         
+   width: 100%;         
 }
 
 
@@ -97,18 +89,11 @@
     width: 1px;
     height: 13px;
     background-color: rgba(0,0,0,0.3);
-    margin: 3px 5px 0px 5px;
-    
+    margin: 3px 5px 0px 5px;    
 }
 
 .open-post__member-status{
     color: #ffb0e0;
-}
-
-
-.open-post__photo{
-    
-        
 }
 
 .open-post__photo img{
@@ -116,8 +101,7 @@
     height:120px;
     border-radius: 10px;
     display: block;
-    justify-content: right;
-    
+    justify-content: right;    
 }
 
 .open-post__heart-count{
@@ -132,8 +116,7 @@
     bottom: 30px;
     left: 68px;
     opacity: 80%;
-    font-size: 13px;
-    
+    font-size: 13px;    
 }
 
 .open-post__heart-count span{

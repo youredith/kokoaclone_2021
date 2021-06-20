@@ -1,6 +1,5 @@
 .more-screen .icon-row{ 
     margin-top: 35px;
-
 }
 
 .more-suggestions{
@@ -14,8 +13,7 @@
 }
 
 .more-suggestions__icons{
-    display:flex;
-      
+    display:flex;      
 }
 
 .more-suggestions__icon{
@@ -29,8 +27,7 @@
     width: 60px;
     height: 60px;
     background-color: var(--yellow);
-    border-radius: 10px;
-    
+    border-radius: 10px;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,13 +42,10 @@
 .more-suggestions__icon-image img{
     width: 75px;
     height: 55px;
-
 }
 
 
-.more-suggestions__icon-image2{
-   
-    
+.more-suggestions__icon-image2{      
     display: flex;
     justify-content: center;
     align-items: center;

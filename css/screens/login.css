@@ -5,7 +5,7 @@ body{
 .index-screen{
     background-size: cover;
     background-repeat: no-repeat;   
-    background-image: url(https://cuteiphonewallpaper.com/wp-content/uploads/2019/09/Gradient-iPhone-Wallpaper-Design.jpg);
+    background-image: url(https://cdn.statically.io/img/cuteiphonewallpaper.com/wp-content/uploads/2019/09/Gradient-iPhone-Wallpaper-Design.jpg);
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -56,7 +56,8 @@ body{
     border-bottom: 0px ;
     margin-bottom: 25px;
     border-radius: 20px;
-    font-family: 'Sofia', cursive;    
+    font-family: 'Sofia', cursive;  
+    background-color: rgba(245, 245, 245, 0.7);  
 }
 
 #login-form input:not([type="submit"]) {

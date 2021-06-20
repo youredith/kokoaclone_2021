@@ -1,33 +1,62 @@
+body{
+    height:100vh; 
+    position: relative;
+}
+.index-screen{
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-image: url(https://cuteiphonewallpaper.com/wp-content/uploads/2019/09/Gradient-iPhone-Wallpaper-Design.jpg);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
 
+.index-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;    
+    height: 170px;
+    width: 100%;
+    margin-top: 90px;
+}
+.index-img img{
+    height: 300px;
+    width: 430px;  
+    padding-top: 120px;    
+}
 .welcome-header {
-    margin: 90px 0px;
+    margin: 10px 0px 60px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    font-family: 'Sofia', cursive;
+    color: whitesmoke;    
 }
 .welcome-header__title{
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 35px;    
 }
 .welcome-header__text{
     width: 60%;
-    opacity: 0.7;
+    opacity: 0.8;
+    font-size: 18px;
 }
 #login-form{
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0px 30px;    
 }
 
 #login-form input {
     border: none;
-    padding: 15px 0px;
+    padding: 13px 25px;
     font-size: 18px;
     border-bottom: 0px ;
     margin-bottom: 25px;
-    
+    border-radius: 20px;
+    font-family: 'Sofia', cursive;    
 }
 
 #login-form input:not([type="submit"]) {
@@ -39,16 +68,20 @@
     color:  rgba(0,0,0,0.4);
 }
 
-#login-form input:focus {
-    border-color: var(--yellow);
+#login-form input:focus {    
+    color:  black;          
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
     padding: 20px 0px;
-    border-radius: 5px;
+    border-radius: 20px;
+    font-size: 23px;
    }
+   #login-form input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 #login-form a {
     text-align: center;

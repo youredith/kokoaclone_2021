@@ -6,12 +6,11 @@
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: 1px solid rgba(121,121,121,0.3);
-
 }
+
 .nav__list {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .nav__link{
@@ -22,20 +21,16 @@
 @keyframes notificationAnimation {
     0%{
         transform: none;
-
     }
     50%{
         transform: translateY(-4px) rotateY(360deg);
-
     }
     100%{
         transform: none;
-    }
-    
+    }    
 }
 
-.nav__notification {
- 
+.nav__notification { 
     position: absolute;
     left: 18px;
     bottom: 18px;
@@ -97,4 +92,3 @@
 .nav__btn:last-child{
     animation-delay: 0.9s;
 }
-

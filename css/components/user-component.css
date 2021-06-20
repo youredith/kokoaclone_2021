@@ -5,17 +5,23 @@
 }
 
 .user-component,
-.user-component__column:first-child{
+.user-component__column{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
+
+.user-component-friends .user-component__column:first-child{
+    border-bottom: var(--main-border);
+    padding-bottom: 20px;
+}
+
 
 .user-component-friends{
     justify-content: space-between;
     margin-top: 65px;
     margin-bottom: 20px;
 }
-
 
 
 .user-component__avatar {
@@ -25,7 +31,7 @@
     margin-right: 20px;
 }
 .user-component__title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
 
 }
@@ -33,6 +39,7 @@
     margin-top: 5px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
+    line-height: 20px;
 }
 
 .user-component__avatar--xl {
@@ -45,7 +52,6 @@
     height: 60px;
     border-radius: 25px;
 }
-
 
 
 .user-component__column:last-child{

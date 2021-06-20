@@ -1,16 +1,24 @@
 #no-mobile{
     position: absolute;
     z-index: 99;
-    height: 100vh;
+    height: 120vh;    
     width: 100vw;
-    background-color: var(--yellow);
+    background-color: var(--blue);
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 0;
-    font-size: 28px;
-
+    flex-direction: column;
+    top: -90px;
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: 'Sofia', cursive;
 }
+
+#no-mobile img{
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width:600px){
     #no-mobile{

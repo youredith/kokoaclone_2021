@@ -1,18 +1,15 @@
-.screen-header{
-    
-    
+.screen-header{       
     display: flex;    
     justify-content: space-between;
     align-items: center;
     padding: 40px var(--horizontal-space) 25px var(--horizontal-space);
     margin-bottom: 15px;
-        
+    background-color: white;
     position: fixed;
     z-index: 1;
     width: 100%;
     Box-sizing:border-box; 
-    background-color: white;
-    
+    font-family: 'Sofia', cursive;
 
 }
 
@@ -39,8 +36,7 @@
     }
     to{
         transform: rotateZ(360deg);
-    }
-    
+    }    
 }
 
 .screen-header__icons .fa-cog:hover{

@@ -57,6 +57,9 @@ body{
 
 
 #splash-screen{
+  
+    padding: 0px var(--horizontal-space);
+    
     background-color:#506bb6;
     position: absolute;
     height: 100vh;

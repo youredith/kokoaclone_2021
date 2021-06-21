@@ -36,10 +36,10 @@ body{
 }
 .welcome-header__title{
     margin-bottom: 20px;
-    font-size: 30px;    
+    font-size: 27px;    
 }
 .welcome-header__text{
-    width: 60%;
+    width: 75%;
     opacity: 0.8;
     font-size: 18px;
 }

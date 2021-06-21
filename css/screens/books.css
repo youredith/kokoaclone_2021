@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.library{  
+  height: 150vh;
+  width: 100vw;   
+  background-image: url(https://i.pinimg.com/originals/53/b2/11/53b211f2ac3bc775172b0d6cab40adf3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;   
+  flex-direction: column;  
+  font-family: 'Inter', sans-serif;
+  color: whitesmoke;
+}
+
+.search{
+  height: 60px;
+  width: 100%;
+  margin: 30px 0px;
+  position: relative;
+  align-items: center;
+}
+
+.library input{
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0px 30px;
+  border-radius: 30px;
+  position: absolute;
+  
+}
+input:focus{
+  color: rgb(124, 122, 122);
+  outline: none;
+}
+
+.search i{
+   position: absolute;
+   color: grey;
+   right: 20px;
+   top: 12px;
+   opacity: 70%;
+}
+
+.library h1{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: -47px;
+  position: absolute;
+}
+
+.Book-of-the-day{
+  display: flex;
+  width: 100%;
+  height: 250px;  
+  flex-direction: row;  
+  position: relative;
+  margin-top: 65px;
+}
+
+.Book-of-the-day-img{
+  width: 43%;  
+}
+.Book-of-the-day__info{
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 27px;  
+}
+
+.Book-of-the-day-img img{
+  height: 210px;
+  width: 150px;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.Book-of-the-day__info-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.Book-of-the-day__info-author{
+  opacity: 75%;
+}
+.Book-of-the-day__info-rating{
+  margin-bottom: 17px;
+}
+.Book-of-the-day__info-rating i{
+  font-size: 12px;
+  color: rgb(252, 215, 5);
+}
+
+.Book-of-the-day__info-hashtag{
+  line-height: 31px;
+}
+.hashtag{  
+  padding: 3px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: whitesmoke;  
+  color: black;
+  opacity: 70%;
+}
+.Book-of-the-day__info-btns{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;    
+}
+.Book-of-the-day__info-btns-btn{  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: whitesmoke;      
+  opacity: 90%;   
+}
+.Book-of-the-day__info-btns-btn:last-child{  
+  width: 125px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: black;    
+  opacity: 70%;   
+}
+.Book-of-the-day__info-btns-btn i{
+  color: black;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Book-of-the-day__info-btns-btn span{
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+.latest-releases{
+  margin-top: 55px;
+  flex-direction: row;
+}
+
+.latest-releases-books{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 200px; 
+}
+.latest-releases-book{
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.latest-releases-book img{
+  height: 130px;
+  width: 90px;
+  margin-bottom: 10px;
+  border-radius: 10px;  
+}
+.ratings{
+  width: 90px;
+  justify-content: center;
+  margin-left: 3.5px;
+}
+.ratings i{
+  font-size: 12px;
+  color: rgb(252, 215, 5);
+}
+.latest-releases-books::-webkit-scrollbar {
+  height: 11px;        
+ }
+ .latest-releases-books::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.692);
+  opacity: 50%;
+  border-radius: 10px;
+ }
+.latest-releases-books::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px grey;
+}
+
+
+
+
+.popular-authors{
+  margin-top: 100px;
+  height: 200px;
+  overflow-y: scroll;
+}
+.authors{
+  display: flex;
+  flex-direction: column;
+}
+.authors__author{
+  display: flex;
+  flex-direction: row;
+  margin: 18px 0;
+}
+
+.authors__author-img img{
+  height: 180px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.authors__author-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.authors__author-info-name{
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+
+.authors__author-info-introduce{
+  line-height: 22px;
+  opacity: 80%;
+}
+
+
+.popular-authors::-webkit-scrollbar {
+  width: 11px;        
+ }
+ .popular-authors::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.692);
+  opacity: 50%;
+  border-radius: 10px;
+ }
+.popular-authors::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px grey;
+}

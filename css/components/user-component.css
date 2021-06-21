@@ -48,10 +48,7 @@
     opacity:0.6;    
 }
 
-.user-component-friends .user-component__column:first-child{
-    border-bottom: var(--main-border);
-    padding-bottom: 20px;
-}
+
 
 
 .user-component-friends{

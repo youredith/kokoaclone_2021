@@ -1,7 +1,8 @@
 #chat-screen{
     background-color: #abc1d1;
-    height: 500vh;
+    height: 120vh;
 }
+
 
 #chat-screen .status-bar{
     z-index:2;
@@ -59,6 +60,12 @@
     display: flex;
     margin-bottom: 25px;    
     animation: fadeIn 1s linear forwards;     
+    flex-direction: row;
+}
+.message-row:last-child{
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;     
+    animation-delay: 4s;
 }
 
 .message-row img{
@@ -80,19 +87,52 @@
     padding: 10px 13px;
     border-radius: 12px;
     margin-right: 5px;
+    margin-top: 3px;
     border-top-left-radius: 0px;    
+}
+.message__bubble-img{
+    background-color:rgba(0, 0, 0, 0);    
+}
+.message__bubble-img img{
+    height: 150px;
+    width: 150px;
+}
+.message__bubble-img2 img{
+    height: 150px;
+    width: 200px;
 }
 
 .message__info{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column; 
+    
 }
 
 
 .message__time{
     opacity: 0.8;
     font-size: 15px;
+    position:relative;
 }
+.message__time2{
+    opacity: 0.8;
+    font-size: 15px;
+    position:absolute;
+    margin: 60px 0px 0px 110px;
+}
+
+.message__time span{
+    position:absolute;
+    bottom:0;
+    padding: 0px 5px;
+}
+.message__time2 span{
+    position:absolute;
+    bottom:0;
+    padding: 0px 5px;
+}
+
 
 
 .message-row--own{
@@ -101,6 +141,12 @@
     animation: fadeIn--own 1s linear forwards; 
     animation-delay: 2s;
 }
+.message-row--own .message__time{
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+
 
 .message-row--own .message__bubble {
     background-color: var(--yellow);
@@ -110,9 +156,7 @@
     margin-left: 5px;
 }
 
-.message-row--own .message__info{
-    flex-direction: row-reverse;
-}
+
 
 .reply {
     position: fixed;
@@ -142,6 +186,7 @@
 .reply input{
     height: 30px;
     width: 100%;
+    padding: 17px;
     border: var(--main-border);
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
@@ -157,14 +202,18 @@
 .reply__column:last-child > i{
     right: 40px;
     top: 10px;
+    font-size: 23px;
 }
 
 .reply__column button{
     background-color: var(--yellow);
     border: none;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 3px;
+
 }
 
 .reply__column button:focus,
@@ -199,11 +248,11 @@
 
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
-  transform: translateX(1px);
+  transform: translateX(-2px);
   
 }
 
 .reply input:focus{
-    width: 98vw;
+    width: 90vw;
     transform:translateX(-10%) translateY(0px);
 }

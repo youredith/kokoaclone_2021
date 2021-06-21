@@ -22,6 +22,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/music.css";
+@import "screens/books.css";
 
 body {
     color: #2e363e;

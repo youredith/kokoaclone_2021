@@ -66,3 +66,8 @@
     height: 60px;
     border-radius: 10px;
 }
+.more-suggestions__icon-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

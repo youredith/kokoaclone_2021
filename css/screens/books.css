@@ -80,14 +80,14 @@ input:focus{
   margin-top: 5px;
 }
 .Book-of-the-day__info-title{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 .Book-of-the-day__info-author{
   opacity: 75%;
 }
 .Book-of-the-day__info-rating{
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 .Book-of-the-day__info-rating i{
   font-size: 12px;
@@ -111,11 +111,11 @@ input:focus{
   height: 50px;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 10px;    
+   
 }
 .Book-of-the-day__info-btns-btn{  
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   font-size: 20px;
   background-color: whitesmoke;      
@@ -123,7 +123,7 @@ input:focus{
 }
 .Book-of-the-day__info-btns-btn:last-child{  
   width: 125px;
-  height: 40px;
+  height: 35px;
   border-radius: 15px;
   font-size: 18px;
   background-color: black;    

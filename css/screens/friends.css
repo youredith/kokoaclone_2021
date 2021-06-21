@@ -76,6 +76,10 @@ body{
 }
 
 #splash-screen span{
-    margin-left: -20px;
+    margin-left: -35px;
+}
+
+#splash-screen img{
+    margin-left: -35px;
 }
 

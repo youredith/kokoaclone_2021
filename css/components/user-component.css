@@ -11,19 +11,20 @@
     margin-bottom: 10px;
     position:relative;
 }
-.user-component__text .fa-caret-left{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 78%;
+
+.user-component__text-indicator{
+    display:flex;
     position:absolute;
-    font-size: 30px;    
-    opacity:0;    
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 20px;
+    opacity:0;
+    height: 30px;
+}
+.user-component__text-indicator:hover{
+   opacity: 0.6;
 }
 
-.user-component__text:hover .fa-caret-left{
-    opacity:1;    
-}
 
 
 .user-component__text{
@@ -35,21 +36,6 @@
     
     position:absolute;    
 }
-.user-component__text span{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 78%;
-        position:absolute;
-        font-size: 20px;    
-        opacity:0;    
-}
-.user-component__text:hover span{  
-    opacity:0.6;    
-}
-
-
-
 
 .user-component-friends{
     justify-content: space-between;
@@ -104,7 +90,7 @@
 .user-component__title--not-bold{
     font-weight: 400;
     width: 200px;
-    position:Absolute;
+    position:absolute;
     margin-left: -15px;
 
 }
@@ -112,7 +98,7 @@
 .user-component__text--chats .user-component__title--not-bold{
     font-weight: 400;
     width: 200px;
-    position:Absolute;
+    position:absolute;
     
     margin: -5px 0px 0px -5px;
 

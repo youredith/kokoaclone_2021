@@ -41,6 +41,10 @@
     color:white;
 }
 
+.more-suggestions__icon-image:hover i{
+    animation: rainbowhover 3.5s linear infinite;
+}
+
 .more-suggestions__icon-image img{
     width: 50px;
     height: 30px;

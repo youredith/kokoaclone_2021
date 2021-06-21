@@ -71,10 +71,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: hideSplashScreen 3s ease-in-out forwards;
+    animation: hideSplashScreen 1.5s ease-in-out forwards;
     animation-delay: 1s;
 }
 
 #splash-screen span{
     margin-left: -20px;
 }
+

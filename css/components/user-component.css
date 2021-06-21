@@ -9,6 +9,43 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    position:relative;
+}
+.user-component__text .fa-caret-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 78%;
+    position:absolute;
+    font-size: 30px;    
+    opacity:0;    
+}
+
+.user-component__text:hover .fa-caret-left{
+    opacity:1;    
+}
+
+
+.user-component__text{
+    display: flex;
+    margin-left: 90px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    
+    position:absolute;    
+}
+.user-component__text span{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 78%;
+        position:absolute;
+        font-size: 20px;    
+        opacity:0;    
+}
+.user-component__text:hover span{  
+    opacity:0.6;    
 }
 
 .user-component-friends .user-component__column:first-child{
@@ -33,6 +70,7 @@
 .user-component__title {
     font-weight: 500;
     font-size: 20px;
+    
 
 }
 .user-component__subtitle {
@@ -68,4 +106,38 @@
 
 .user-component__title--not-bold{
     font-weight: 400;
+    width: 200px;
+    position:Absolute;
+    margin-left: -15px;
+
+}
+
+.user-component__text--chats .user-component__title--not-bold{
+    font-weight: 400;
+    width: 200px;
+    position:Absolute;
+    
+    margin: -5px 0px 0px -5px;
+
+}
+
+.user-component__text--chats .user-component__subtitle{
+    margin-left: -3px;
+    margin-top: 20px;
+    
+}
+
+.user-component__text--more .user-component__title{
+    font-weight: 500;
+    width: 200px;
+    position:Absolute;
+    
+    margin: -5px 0px 0px -5px;
+
+}
+
+.user-component__text--more .user-component__subtitle{
+    margin-left: -3px;
+    margin-top: 20px;
+    
 }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">    
+  </head>
+
+  <body>
+    <div class="music-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+           <span>Plane Mode</span>
+           <i class="fas fa-plane"></i>
+        </div>
+         <div class="status-bar__column">
+          <span>12:13</span>
+         </div>
+   
+        <div class="status-bar__column">
+         <span>220%</span>
+         <i class="fas fa-battery-full fa-lg"></i>
+         <i class="fas fa-bolt"></i>
+        </div>
+       </div>
+
+    <header class="screen-header">
+        
+        <div class="screen-header__icons">
+            <a href="friends.html">
+            <i class="fas fa-arrow-left"></i>
+            </a>                     
+        </div>
+        
+        <div class="screen-header__title">Music</div>
+        <div class="screen-header__blank"></div>
+    </header>
+   <div class="music-box">
+    <div class="main-screen">
+     
+
+     <div class="playing-music">
+      <div class="playing-music__jacket-img">
+        <div class="cd-hole"></div>
+        <img src="https://image.aladin.co.kr/product/16940/65/cover500/1368049958_2.jpg"/>
+      </div>
+      <div class="playing-music__info">
+        <span class="playing-music__info-title">A Whole New World</span>
+        <span class="playing-music__info-artist">Peabo Bryson, Regina Belle</span>
+        <span class="playing-music__info-album">Aladdin</span>
+      </div>  
+     </div>
+
+     <div class="buttons">
+      <button class="play">
+        <i class="fas fa-play"></i>        
+        <span>Play</span>
+      </button>
+      <button class="shuffle">        
+        <i class="fas fa-random"></i>        
+      </button>
+      <button class="like">
+        <i class="far fa-heart"></i>
+      </button>
+      <button class="add-to-playlist">
+        <i class="fas fa-plus"></i>
+      </button>
+     </div>
+
+     <div class="playlist">
+      <ul class="tracks">
+        <li class="tracks__track">
+          <div class="tracks__track__jacket-img">
+            <div class="active-image">            
+            </div>
+            <i class="fas fa-play"></i>
+           <img src="http://image.yes24.com/momo/TopCate0010/hani/L_1173688.jpg"/>
+          </div>
+          <div class="tracks__track__info">
+           <span class="tracks__track__info-title">Into the Unknown</span>
+           <span class="tracks__track__info-artist">Idina Menzel</span>
+           <span class="tracks__track__info-album">Frozen 2</span>
+          </div>
+        </li>
+        <li class="tracks__track">
+          <div class="tracks__track__jacket-img">
+            <div class="active-image">            
+            </div>
+            <i class="fas fa-play"></i>
+           <img src="https://www.bosspiano.com/sheets/colors-of-the-wind-pocahontas-soundtrack-vanessa-williams.jpg"/>
+          </div>
+          <div class="tracks__track__info">
+           <span class="tracks__track__info-title">Colors of The Wind</span>
+           <span class="tracks__track__info-artist">Judy Kuhn</span>
+           <span class="tracks__track__info-album">Pocahontas</span>
+          </div>
+        </li>
+        <li class="tracks__track">
+          <div class="tracks__track__jacket-img">
+            <div class="active-image">            
+            </div>
+            <i class="fas fa-play"></i>
+           <img src="https://upload.wikimedia.org/wikipedia/en/4/44/BATB_2017_Soundtrack.jpg"/>
+          </div>
+          <div class="tracks__track__info">
+           <span class="tracks__track__info-title">Belle</span>
+           <span class="tracks__track__info-artist">Emma Watson, Luke Evans</span>
+           <span class="tracks__track__info-album">Beauty and the Beast</span>
+          </div>
+        </li>
+        <li class="tracks__track">
+          <div class="tracks__track__jacket-img">
+            <div class="active-image">            
+            </div>
+            <i class="fas fa-play"></i>
+           <img src="http://image.yes24.com/goods/59210014/L"/>
+          </div>
+          <div class="tracks__track__info">
+           <span class="tracks__track__info-title">Remember Me</span>
+           <span class="tracks__track__info-artist">Miguel</span>
+           <span class="tracks__track__info-album">Coco</span>
+          </div>
+        </li>
+      </ul>
+
+     </div>
+   
+    </div>
+  </body>
+
+<script src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"
+></script>
+</html>

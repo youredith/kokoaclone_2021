@@ -21,10 +21,12 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/music.css";
 
 body {
     color: #2e363e;
     font-family: "Inter", sans-serif; 
+    
 }
 
 .main-screen-friends{
@@ -45,4 +47,53 @@ body {
 .more-screen{
     padding: 80px var(--horizontal-space);
     height: 1000vh;       
+}
+
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }    
+}
+
+.screen-header__icons .fa-cog:hover{
+    animation: rotateCog  2s linear infinite;
+    
+}
+
+@keyframes rainbowhover{
+    0%{
+        transform: none;
+        transform: scale(1);
+    }
+    14%{
+        color: tomato;
+        transform: scale(1.2);
+    }
+    28%{
+        color: orange;  
+        transform: scale(1);      
+    }
+    42%{
+        color: yellow;
+        transform: scale(1.2);        
+    }
+    56%{
+        color: green;
+        transform: scale(1);
+    }
+    70%{
+        color: blue;    
+        transform: scale(1.2);
+    }
+    84%{
+        color: navy;
+        transform: scale(1);
+    }
+    98%{
+        color: purple;
+        transform: scale(1.2);
+    }
 }

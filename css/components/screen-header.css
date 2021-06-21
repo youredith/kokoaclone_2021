@@ -13,7 +13,28 @@
 
 }
 
-
+.music-screen .screen-header {
+    background-color: rgba(245, 245, 245, 0);
+    color: #f5f5f5;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    
+}
+.music-screen .screen-header__icons{
+   width: 33%;
+   margin-right: auto;
+   font-size: 25px;
+}
+.music-screen .screen-header__title{
+    width: 33%;
+    text-align: center;
+    font-size: 27px;
+}
+.music-screen .screen-header__blank{
+    width: 33%;      
+}
 
 .screen-header__title{
     font-size: 32px;
@@ -29,16 +50,10 @@
 }
 
 
-
-@keyframes rotateCog {
-    from{
-        transform: none;
-    }
-    to{
-        transform: rotateZ(360deg);
-    }    
+.screen-header__icons .fa-music:hover{    
+    animation: rainbowhover 5s ease-out infinite;
+    cursor: pointer;
 }
 
-.screen-header__icons .fa-cog:hover{
-    animation: rotateCog  2s linear infinite;
-}
+
+

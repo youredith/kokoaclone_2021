@@ -25,7 +25,7 @@ body{
     margin:2.5px 10px auto 10px;
     }
 
-.friends-screen{
+.main-screen-friends{
     padding: 0px var(--horizontal-space);
 }
 
@@ -67,7 +67,7 @@ body{
     top: 0;
     z-index: 3;
 
-    font-size: 37px;
+    font-size: 36px;
     color:whitesmoke;
     font-family: 'Sofia', cursive;
 
@@ -79,10 +79,12 @@ body{
 }
 
 #splash-screen span{
-    margin-left: -35px;
+    margin-left: -37px;
 }
 
 #splash-screen img{
     margin-left: -35px;
+    height: 200px;
+    width: 220px;
 }
 

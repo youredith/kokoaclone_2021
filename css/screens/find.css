@@ -64,7 +64,8 @@
     display: flex;      
     text-transform: uppercase;
     color: var(--grey);  
-    line-height: 20px;       
+    line-height: 20px; 
+    font-size: 13px;      
 }
 
 .open-post__members{

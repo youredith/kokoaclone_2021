@@ -30,6 +30,7 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 13px;
+    padding-right: 5px;
 }
 
 .status-bar__column .fa-battery-full {

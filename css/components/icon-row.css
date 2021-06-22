@@ -8,17 +8,20 @@
 }
 
 .icon-row__icon{
-    width: 80px;
-    height: 40px;
+    width: 55px;
+    height: 35px;
     display: flex;
     flex-direction:column;
     align-items: center;
 }
 
 .icon-row__icon i{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .icon-row__icon span{
     margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    
     }
